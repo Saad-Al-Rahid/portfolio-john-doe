@@ -30,6 +30,15 @@
   .header__wrapper .nav-item .nav-link {
     margin-top: 0.9375rem;
   }
+
+  /* ---about--- */
+  .about__wrapper .client__info::before {
+    top: 0.25rem;
+    left: 2.8125rem;
+  }
+  .about__wrapper .client__info > div {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 767px) {
