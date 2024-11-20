@@ -11,6 +11,14 @@
   h5 {
     font-size: 1.0625rem;
   }
+
+  /* ---blog--- */
+  .blog__wrapper .blog__details {
+    top: 0.3125rem;
+    left: 0.3125rem;
+    right: 0.3125rem;
+    bottom: 0.3125rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -57,4 +65,11 @@
 }
 
 @media (max-width: 576px) {
+    /* ---blog--- */
+    .blog__wrapper .blog__details {
+      top: 2.1875rem;
+      left: 2.1875rem;
+      right: 2.1875rem;
+      bottom: 2.1875rem;
+    }
 }
