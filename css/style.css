@@ -357,3 +357,30 @@ section {
   top: 50%;
   left: 50%;
 }
+
+/* ===BLOG SECTION=== */
+.blog__wrapper .card{
+  position: relative;
+  cursor: pointer;
+}
+
+.blog__wrapper .blog__details{
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+
+  background: rgba(34, 34, 34, 0.8);
+  color: var(--bg-white);
+  padding: 1.5625rem;
+  -webkit-transition: all 400ms ease 0;
+  -o-transition: all 400ms ease 0;
+  -ms-transition: all 400ms ease 0;
+  -moz-transition: all 400ms ease 0;
+  transition: all 400ms ease 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
