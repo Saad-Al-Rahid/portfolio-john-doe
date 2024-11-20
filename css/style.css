@@ -277,3 +277,19 @@ section {
   text-transform: uppercase;
   margin-bottom: 0.3125rem;
 }
+
+/* ===SERVICES SECTION=== */
+.services__wrapper .card {
+  background-color: var(--bg-light);
+  cursor: pointer;
+  -webkit-transition: all 400ms ease 0;
+  -ms-transition: all 400ms ease 0;
+  -o-transition: all 400ms ease 0;
+  -moz-transition: all 400ms ease 0;
+  transition: all 400ms ease 0;
+}
+
+.services__wrapper .card:hover {
+  box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222/30%);
+  background: var(--bg-white);
+}
